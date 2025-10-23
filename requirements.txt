@@ -1,17 +1,7 @@
-pandas
-numpy
-matplotlib
-seaborn
-scipy
-scikit-learn
-openpyxl   # for reading Excel files (.xlsx)
-
-#pandas → for loading and cleaning CSV/XLSX data
-#numpy → numerical computations
-#matplotlib & seaborn → visualization and charts
-#scipy → statistical analysis (e.g., t-tests, correlations)
-#scikit-learn → machine learning models if you extend analysis (e.g., regression, prediction)
-#openpyxl → needed specifically to read the EdGap .xlsx file
-
-jupyter
-notebook(if using that)
+pandas>=2.0
+numpy>=1.26
+matplotlib>=3.8
+seaborn>=0.13
+statsmodels>=0.14
+scikit-learn>=1.4
+openpyxl>=3.1
